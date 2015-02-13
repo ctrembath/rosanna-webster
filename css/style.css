@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+body {
+	font-family: "Lato", Arial;
+	font-size: 14px;
+	line-height: 1.4;
+	letter-spacing: 1px;
+}
+
+article {
+	border: 10px solid #000000;
+}
+
+h1, h2 {
+	font-family: "Gill Sans", Arial;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	padding: 20px 0;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+/*Carousel*/
+
+div#carousel-holder {
+	height: 500px;
+	overflow: hidden;
+	width: 960px;
+}
+
+div#carousel {
+	width: 1000000px;
+	height: 500px;
+	position: relative;
+	transition: left 1s;
+}
+
+div.slide {
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	width: 960px;
+	height: 500px;
+}
+
+div#slide_1 {
+	background-image: url(../images/slide_1.jpg);
+}
+div#slide_2 {
+	background-image: url(../images/slide_2.jpg);
+}
+div#slide_3 {
+	background-image: url(../images/slide_3.jpg);
+}
+div#slide_4 {
+	background-image: url(../images/slide_4.jpg);
+}
+
+nav a {
+	position: absolute;
+	top: 250px;
+	z-index: 1;
+}
+
+a#prev {
+	left: -70px;
+}
+
+a#next {
+	right: -70px;
+}
+
+a {
+	color: #000000;
+	transition: all 0.25s;
+}
+
+a:hover{
+	color: #486628;
+}
+
+footer {
+	text-align: center;
+	margin: 20px 0;
+}
+
+footer a{
+	display: inline-block;
+	font-family: "Gill Sans", Arial;
+	font-size: 17px;
+
+	text-transform: uppercase;
+	text-decoration: none;
+
+	padding: 0 20px;
+}
+
+a#twitter_bird {
+	height: 16px;
+	width: 16px;
+	background-image: url(../images/twitter_black.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+

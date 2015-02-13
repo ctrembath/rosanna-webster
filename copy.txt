@@ -1,0 +1,12 @@
+Body Font: Lato at 14px, 1.4 line height
+Header Font: Gill Sans at 20px, upper case
+
+Link colour: #000000
+Hover colour: #486628
+
+
+Contact copy:
+
+Rosanna Webster is an illustration graduate from Brighton University, available for freelance projects, collaborations or just a chat. 
+
+Telephone +44 (0)7838092302 or email rosannawebster@hotmail.com
